@@ -1016,7 +1016,8 @@
             "live\\.be",
             "live\\.com\\.ar",
             "live\\.com\\.mx",
-            "live\\.co\\.uk"
+            "live\\.co\\.uk",
+            "msn\\.com"
         ],
         "mailboxes": {
             "drafts": "Drafts",
