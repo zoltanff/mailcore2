@@ -463,6 +463,11 @@
             ],
             "smtp": [
                 {
+                    "port": 587,
+                    "hostname": "smtp.mail.yahoo.com",
+                    "starttls": true
+                },
+                {
                     "port": 465,
                     "hostname": "smtp.mail.yahoo.com",
                     "ssl": true
