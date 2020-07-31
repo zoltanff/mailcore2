@@ -11,9 +11,12 @@
 #include "MCIMAP.h"
 
 #import "MCOUtils.h"
+
+#if 0
 #import "MCOAbstractMessageRendererCallback.h"
 #import "MCOHTMLRendererDelegate.h"
 #import "MCOHTMLRendererIMAPDelegate.h"
+#endif
 
 @implementation MCOIMAPMessage
 
@@ -57,6 +60,7 @@ MCO_OBJC_SYNTHESIZE_SCALAR(uint64_t, uint64_t, setGmailMessageID, gmailMessageID
     return MCO_TO_OBJC(MCO_NATIVE_INSTANCE->partForPartID([partID mco_mcString]));
 }
 
+#if 0
 - (NSString *) htmlRenderingWithFolder:(NSString *)folder
                               delegate:(id <MCOHTMLRendererIMAPDelegate>)delegate
 {
@@ -66,5 +70,6 @@ MCO_OBJC_SYNTHESIZE_SCALAR(uint64_t, uint64_t, setGmailMessageID, gmailMessageID
     
     return result;
 }
+#endif
 
 @end

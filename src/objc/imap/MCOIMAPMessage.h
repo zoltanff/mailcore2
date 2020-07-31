@@ -71,6 +71,7 @@
 */
 - (MCOAbstractPart *) partForPartID:(NSString *)partID;
 
+#if 0
 /**
  HTML rendering of the message to be displayed in a web view.
  The delegate should implement at least
@@ -79,6 +80,7 @@
 */
 - (NSString *) htmlRenderingWithFolder:(NSString *)folder
                               delegate:(id <MCOHTMLRendererIMAPDelegate>)delegate;
+#endif
 
 @end
 
