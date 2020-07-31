@@ -483,7 +483,8 @@
             "yahoo\\..*",
             "ymail\\.com",
             "rocketmail\\.com",
-            "xtra\\.co\\.nz"
+            "xtra\\.co\\.nz",
+            "pacbell.net"
         ],
         "domain-exclude": [
             "yahoo\\.co\\.jp"
