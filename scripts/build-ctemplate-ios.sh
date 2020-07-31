@@ -6,8 +6,8 @@ popd > /dev/null
 
 . "$scriptpath/include.sh/build-dep.sh"
 
-url="https://github.com/dinhviethoa/ctemplate"
-rev=2c6ff9ae7d0ae1b973e57dd19859b95282776194
+url="https://github.com/zoltanff/ctemplate"
+rev=2c37d13940c555abb7eb9932a5ab428a99ff6db4
 name="ctemplate-ios"
 xcode_target="ctemplate-ios"
 xcode_project="ctemplate.xcodeproj"

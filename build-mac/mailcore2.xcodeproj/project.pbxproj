@@ -3475,7 +3475,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$SRCROOT/../scripts/get-ios.sh\"\n";
+			shellScript = "ditto \"$PREBUILT_MAILCORE_BINARIES\" \"$SRCROOT/../Externals\"\n";
 		};
 		C6BD28A6170BD87600A91AC1 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -4301,6 +4301,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OSX_HEADERS_SEARCH_PATHS = "\"$(SRCROOT)/../src/core/basetypes/icu-ucsdet/include\" \"$(SRCROOT)/../Externals/libetpan-osx/include\" \"$(SRCROOT)/../Externals/ctemplate-osx/include\" /usr/include/tidy /usr/include/libxml2";
 				OSX_LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../Externals/libetpan-osx/lib\" \"$(SRCROOT)/../Externals/ctemplate-osx/lib\"";
+				PREBUILT_MAILCORE_BINARIES = "$(SRCROOT)/../../Eo/ios/PrebuiltMailcoreBinaries";
 			};
 			name = Debug;
 		};
@@ -4344,6 +4345,7 @@
 				"LIBRARY_SEARCH_PATHS[sdk=macosx*]" = "$(OSX_LIBRARY_SEARCH_PATHS)";
 				OSX_HEADERS_SEARCH_PATHS = "\"$(SRCROOT)/../src/core/basetypes/icu-ucsdet/include\" \"$(SRCROOT)/../Externals/libetpan-osx/include\" \"$(SRCROOT)/../Externals/ctemplate-osx/include\" /usr/include/tidy /usr/include/libxml2";
 				OSX_LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../Externals/libetpan-osx/lib\" \"$(SRCROOT)/../Externals/ctemplate-osx/lib\"";
+				PREBUILT_MAILCORE_BINARIES = "$(SRCROOT)/../../Eo/ios/PrebuiltMailcoreBinaries";
 			};
 			name = Release;
 		};
